@@ -6,7 +6,7 @@ function showMeun(clickedBtn, btnArrow) {
 
 	if (arrow.classList.contains("active")) {
 		arrow.classList.remove("active");
-		return
+
 	}
 	else {
 		for (i = 0; i < allArrows.length; i++) {

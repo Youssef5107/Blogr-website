@@ -87,6 +87,10 @@ header {
 	transition: .3s;
 }
 
+.active {
+	transform: rotate(-180deg);
+}
+
 nav {
 	opacity: 0;
 	transition: .2s;

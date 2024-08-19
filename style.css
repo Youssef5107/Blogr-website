@@ -1,0 +1,46 @@
+:root {
+	/* ### Primary */
+
+	--Light-red
+	/*(CTA text)*/
+	: hsl(356, 100%, 66%);
+	--Very-light-red
+	/*(CTA hover background)*/
+	: hsl(355, 100%, 74%);
+	--Very-dark-blue
+	/*(headings)*/
+	: hsl(208, 49%, 24%);
+
+	/* ### Neutral */
+
+	--White: hsl(0, 0%, 100%);
+	--Grayish-blue: hsl(240, 2%, 79%);
+	--Very-dark-grayish-blue: hsl(207, 13%, 34%);
+	--Very-dark-black-blue: hsl(240, 10%, 16%);
+
+	/* ### Gradient */
+
+	/* Background-gradient-Intro/CTA mobile nav: */
+
+	--Very-light-red: hsl(13, 100%, 72%);
+	--Light-red: hsl(353, 100%, 62%);
+
+	/* Background gradient - body: */
+
+	--Very-dark-gray-blue: hsl(237, 17%, 21%);
+	--Very-dark-desaturated-blue: hsl(237, 23%, 32%);
+
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	height: 500px;
+	width: 100%;
+	background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	border-radius: 0px 0px 0px 100px;
+
+}

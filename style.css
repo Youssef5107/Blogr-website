@@ -83,13 +83,26 @@ header {
 	color: white;
 }
 
+.icon-arrow-light {
+	transition: .3s;
+}
+
 nav {
 	opacity: 0;
 	transition: .2s;
-	max-width: 100px;
+	max-width: 90px;
 	width: 100%;
 	background-color: white;
 	position: absolute;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.nav-meun-btn {
+	max-width: 50px;
+	width: 100%;
+	color: var(--Very-dark-black-blue);
 }
 
 .login-btn {

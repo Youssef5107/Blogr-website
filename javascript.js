@@ -26,6 +26,4 @@ function showMeun(clickedBtn, btnArrow) {
 		nav.style.opacity = 1;
 	}
 
-
-
 }

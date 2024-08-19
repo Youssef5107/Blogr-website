@@ -198,3 +198,35 @@ nav {
 	top: 515px;
 	right: -242px;
 }
+
+section {
+	display: flex;
+	background-color: var(--Very-dark-black-blue);
+	border-radius: 0px 20px;
+	height: 200px;
+	margin: 400px 0px;
+}
+
+.section-img {
+	position: absolute;
+	max-width: 300px;
+	width: 100%;
+}
+
+.section-content-area {
+	display: flex;
+	flex-grow: 1;
+	justify-content: end;
+}
+
+.section-title {
+	color: white;
+	font-size: 25px;
+}
+
+.section-content {
+	color: var(--Grayish-blue);
+	font-size: 13px;
+	max-width: 300px;
+	width: 100%;
+}

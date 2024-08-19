@@ -201,9 +201,9 @@ nav {
 
 section {
 	display: flex;
-	background-color: var(--Very-dark-black-blue);
-	border-radius: 0px 20px;
-	height: 200px;
+	background-color: var(--Very-dark-desaturated-blue);
+	border-radius: 0px 100px;
+	height: 340px;
 	margin: 400px 0px;
 }
 
@@ -217,6 +217,8 @@ section {
 	display: flex;
 	flex-grow: 1;
 	justify-content: end;
+	align-items: center;
+	margin-right: 10%;
 }
 
 .section-title {

@@ -1,12 +1,11 @@
-function showMeun(clickedBtn, btnArrow) {
+function showMeun(clickedBtn) {
 	var allNav = document.querySelectorAll("nav");
-	var nav = document.getElementById(clickedBtn);
-	var arrow = document.getElementById(btnArrow);
-	var allArrows = document.querySelectorAll(".icon-arrow-light");
+	var divNav = clickedBtn.querySelector("nav");
+	var arrow = clickedBtn.querySelector("img");
+	var allArrows = document.querySelectorAll(".icon-arrow-light")
 
 	if (arrow.classList.contains("active")) {
 		arrow.classList.remove("active");
-
 	}
 	else {
 		for (i = 0; i < allArrows.length; i++) {
@@ -15,15 +14,15 @@ function showMeun(clickedBtn, btnArrow) {
 		arrow.classList.add("active");
 	}
 
-	if (nav.style.opacity == 1) {
-		nav.style.opacity = 0;
+	if (divNav.style.opacity == 1) {
+		divNav.style.opacity = 0;
 		return
 	}
 	else {
 		for (i = 0; i < allNav.length; i++) {
 			allNav[i].style.opacity = 0;
 		}
-		nav.style.opacity = 1;
+		divNav.style.opacity = 1;
 	}
 
 }

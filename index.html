@@ -12,25 +12,47 @@
 <body>
 	<header>
 		<div class="header-main-btns-area">
-			<img src="images/logo.svg" alt="">
-			<div class="header-main-btns">
-				<div class="header-main-option-btn">
-					<button class="header-option-btn-name">Product</button>
+			<img class="main-page-logo" src="images/logo.svg" alt="">
+			<div class="header-nav-btns-area">
+				<div class="header-nav-btn" onclick="showMeun(`1`)">
+					<button class="header-nav-btn-name">Product</button>
 					<img class="icon-arrow-light" src="images/icon-arrow-light.svg" alt="">
+					<nav id="1">
+						<button class="nav-meun-btn">Overview</button>
+						<button class="nav-meun-btn">Pricing</button>
+						<button class="nav-meun-btn">Marketplace</button>
+						<button class="nav-meun-btn">Features</button>
+						<button class="nav-meun-btn">Integrations</button>
+					</nav>
 				</div>
-				<div class="header-main-option-btn">
-					<button class="header-option-btn-name">Company</button>
+
+				<div class="header-nav-btn" onclick="showMeun(`2`)">
+					<button class="header-nav-btn-name">Company</button>
 					<img class="icon-arrow-light" src="images/icon-arrow-light.svg" alt="">
+					<nav id="2">
+						<button class="nav-meun-btn">About</button>
+						<button class="nav-meun-btn">Team</button>
+						<button class="nav-meun-btn">Blog</button>
+						<button class="nav-meun-btn">Careers</button>
+					</nav>
 				</div>
-				<div class="header-main-option-btn">
-					<button class="header-option-btn-name">Connect</button>
+
+				<div class="header-nav-btn" onclick="showMeun(`3`)">
+					<button class="header-nav-btn-name">Connect</button>
 					<img class="icon-arrow-light" src="images/icon-arrow-light.svg" alt="">
+					<nav id="3">
+						<button class="nav-meun-btn">Contact</button>
+						<button class="nav-meun-btn">Newsletter</button>
+						<button class="nav-meun-btn">LinkedIn</button>
+					</nav>
 				</div>
+
 			</div>
 			<div class="header-signing-btns-area">
 				<button class="login-btn">Login</button>
 				<button class="signUp-btn">Sign up</button>
 			</div>
+
 		</div>
 		<div class="header-text header-text1">A modern publishing platform</div>
 		<div class="header-text header-text2">Grow your audience and build your online brand</div>
